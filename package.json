@@ -1,7 +1,7 @@
 {
   "name": "rutha-ionic",
   "version": "0.1.0",
-  "description": "Rutha Front End",
+  "description": "Rutha Ionic Front End",
   "main": "lib/hapi/index.js",
   "scripts": {
     "start": "node lib/hapi/index.js",
@@ -10,7 +10,7 @@
   "author": "Rogelio Morrell",
   "repository": {
     "type": "git",
-    "url": "git://github.com/molekilla/rutha.git"
+    "url": "git://github.com/molekilla/rutha-ionic.git"
   },
   "engines": {
     "node": ">=0.10.0"
@@ -63,10 +63,9 @@
     "bell": "^2.0.0",
     "boom": "^2.6.1",
     "debug": "~2.1.0",
-    "hapi": "~8.5.0",
+    "hapi": "~8.6.0",
     "hapi-auth-cookie": "^2.0.0",
     "joi": "^6.1.0",
-    "mongoose": "^4.0.1",
     "rutha-utils": "^1.1.0",
     "underscore": "^1.8.0"
   }
