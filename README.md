@@ -5,7 +5,7 @@
 **H** apiJS 
 **A** ngularJS
 
-[![Build Status](https://travis-ci.org/molekilla/rutha.svg?branch=master)](https://travis-ci.org/molekilla/rutha)
+[![Build Status](https://travis-ci.org/molekilla/rutha-ionic.svg?branch=master)](https://travis-ci.org/molekilla/rutha-ionic)
 
 Pure pragmatic NodeJS stack
 

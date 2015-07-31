@@ -1,0 +1,23 @@
+language: node_js
+node_js:
+  - "0.12"
+#services:
+#  - mongodb
+env:
+  global:
+    - UI=.
+before_install:
+  - npm config set spin false
+  - npm install -g grunt-cli
+  - npm install -g gulp
+  - npm install -g ionic
+  - npm install -g cordova
+  - npm install -g bower
+install:
+  - cd $UI
+  - npm install
+  - bower install
+before_script:
+  - export DISPLAY=:99.0
+  - sh -e /etc/init.d/xvfb start
+  - npm test
