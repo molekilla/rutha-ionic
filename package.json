@@ -1,6 +1,6 @@
 {
   "name": "rutha-ionic",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Rutha Ionic Front End",
   "main": "lib/hapi/index.js",
   "scripts": {
@@ -42,6 +42,7 @@
     "grunt-nsp-package": "0.0.5",
     "grunt-preprocess": "^4.1.0",
     "grunt-protractor-runner": "^1.1.0",
+    "grunt-sass": "^1.0.0",
     "grunt-shell": "^1.1.1",
     "grunt-wiredep": "~2.0.0",
     "jasmine-node": "~2.0.0",

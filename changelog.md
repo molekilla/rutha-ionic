@@ -9,6 +9,9 @@ Pure pragmatic NodeJS stack
 
 ### Changelog ###
 
+#### 0.2.0
+
+* Added SASS support
 
 #### 0.1.0
 
