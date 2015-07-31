@@ -1,4 +1,4 @@
-
+/*global cordova:true, StatusBar:true*/
 // rutha_ionic - based on Ionic Starter App
 
 // http://toddmotto.com/opinionated-angular-js-styleguide-for-teams/
