@@ -19,6 +19,6 @@ wrench.readdirSyncRecursive('./gulp').filter(function(file) {
 
 
 // Task
-gulp.task('default', ['ngtemplates', 'concat', 'copy', 'sass', 'watch'], function() {
+gulp.task('default', ['ngtemplates', 'concat', 'copy', 'sass'], function() {
 
 });

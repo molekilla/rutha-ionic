@@ -8,11 +8,16 @@ module.exports = function(){
 		src: src,
 		temp: temp,
 		build: build,
+        bowerComponents: __dirname + '/../dist/components',
 		copyAssets: {
             index: src + 'app/index.html',
             images: src + 'app/img/**',
             fonts: src + 'app/fonts/**',
             assets: src + 'assets/**'
+        },
+
+        watch: {
+            sass: src + 'app/scss/*.scss'
         },
 
 		allSass: src + 'app/scss/ionic.app.scss',
