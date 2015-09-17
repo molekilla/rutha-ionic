@@ -1,8 +1,8 @@
 //  // server dev environment no auto refresh for ionic
 //  grunt.registerTask('ionic', Help.serve,
-//    ['babel:dev', 'preprocess:html', 'ngtemplates:dev', 'concat:dev', 'ngAnnotate:dev', 'uglify:devIonic',
-//     'bower_concat:dev', 'wiredep:dev', 'copy:devCssImages', 'copy:devFonts',
-//     'copy:devImages', 'copy:ionicIndex', 'cssmin:dependencies', 'cssmin:dev', 'copy:devAssets', 'concurrent:dev']);
+//    ['babel:dev', 'ngtemplates:dev', ['concat:dev', 'ngAnnotate:dev'], 'uglify:devIonic',
+//     'bower_concat:dev', 'copy:devCssImages', 'copy:devFonts',
+//     'copy:devImages', 'copy:ionicIndex', 'cssmin:dependencies', 'cssmin:dev', 'copy:devAssets']);
 
 
 
@@ -18,6 +18,7 @@ wrench.readdirSyncRecursive('./gulp').filter(function(file) {
 });
 
 
-gulp.task('default', ['clean'], function () {
-  gulp.start('build');
+// Task
+gulp.task('default', ['ngtemplates', 'concat', 'copy', 'sass', 'watch'], function() {
+
 });

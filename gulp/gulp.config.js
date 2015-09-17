@@ -8,12 +8,12 @@ module.exports = function(){
 		src: src,
 		temp: temp,
 		build: build,
-		copyAssets: [
-            src + 'app/index.html',
-            src + 'app/img/**',
-            src + 'app/fonts/**',
-            src + 'app/assets/**'
-        ],
+		copyAssets: {
+            index: src + 'app/index.html',
+            images: src + 'app/img/**',
+            fonts: src + 'app/fonts/**',
+            assets: src + 'assets/**'
+        },
 
 		allSass: src + 'app/scss/ionic.app.scss',
 

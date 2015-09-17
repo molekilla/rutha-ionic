@@ -2,11 +2,10 @@
 
 var path = require('path');
 var gulp = require('gulp');
-var config = require('./gulp.config');
+var config = require('./gulp.config')();
 var $ = require('gulp-load-plugins')({ lazy:true });
 
-gulp.task('templatecache', function() {
-    log('Creating AngularJS $templateCache');
+gulp.task('ngtemplates', function() {
 
     return gulp
         .src(config.templates)
@@ -15,5 +14,5 @@ gulp.task('templatecache', function() {
             config.templateCache.file,
             config.templateCache.options
             ))
-        .pipe(gulp.dest(config.temp));
+        .pipe(gulp.dest(config.build + 'js/'));
 });
