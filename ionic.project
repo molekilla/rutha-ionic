@@ -1,4 +1,11 @@
 {
   "name": "rutha-ionic",
-  "app_id": ""
+  "app_id": "",
+  "gulpStartupTasks": [
+    "default",
+    "watch"
+  ],
+  "watchPatterns": [
+    "src/**/*"
+  ]  
 }

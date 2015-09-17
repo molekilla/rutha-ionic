@@ -11,7 +11,7 @@ Pure pragmatic NodeJS stack
 
 #### Changelog: [changelog](changelog.md)
 
-#### Last update: 0.2.0
+#### Last update: 0.3.0
 
 #### Docs:
 
@@ -35,25 +35,12 @@ Pure pragmatic NodeJS stack
 ## Installing
 1. Clone repo
 2. Rename text containing `rutha` to `your_app_name`
-3. Use node 0.10.x or 0.12.x
-4. Run `npm install grunt-cli -g`
+3. Use node 0.10.x or 0.12.x (Not 4.x ready !)
+4. Run `npm install gulp -g`
 5. Run `npm install` and then `bower install`
-6. Run `grunt ionic`
-6. Open a new tab run `ionic serve`
-
-
-## Grunt Help - Frontend tasks
-
-* `grunt ionic`: Serves frontend service with no auto reload for Ionic
-* `grunt spec`: Runs jshint and server side / UI specs
-* `grunt test`: Runs E2E/Functional tests (Angular)
-* `grunt build`: Prepares UI assets
-* `grunt stagelocal`: Provisions Vagrant VM
-* `grunt staging`: Provisions staging
-* `grunt deploy`: Provisions production
-* `grunt jshinting`: Verifies javascript using jshint
-* `grunt auditpkg`: Verifies modules that contains security issues
-
+6. Run `ionic serve`
+7. Open `http://localhost:8100/#/login`
+8. Enjoy !
 
 ### Maintainers, notes ###
 Maintain by Rogelio Morrell C. 

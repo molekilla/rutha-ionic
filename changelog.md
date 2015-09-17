@@ -9,6 +9,12 @@ Pure pragmatic NodeJS stack
 
 ### Changelog ###
 
+#### 0.3.0
+
+* Migrated to Gulp workflow, which integrates seamless with Ionic
+* Removed Grunt
+* Cleaned up dependencies
+
 #### 0.2.0
 
 * Added SASS support

@@ -7,7 +7,11 @@
   },
   "overrides": {
     "ionic": {
-      "main": "ionic.js"
+      "main": "ionic.js",
+      "ignore": true
+    },
+    "angular": {
+      "ignore": true
     }
   },
   "version": "0.1.0",
