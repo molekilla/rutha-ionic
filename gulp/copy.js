@@ -19,6 +19,6 @@ gulp.task('copy', function(){
         .pipe(gulp.dest(config.build + '/fonts'));
 
     // Assets
-    gulp.src(config.copyAssets.assets)
+    return gulp.src(config.copyAssets.assets)
         .pipe(gulp.dest(config.build));
 });

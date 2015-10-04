@@ -15,14 +15,14 @@ gulp.task('concat', function() {
   };
 
   // deps.js
-  gulp.src(mainBowerFiles(opts))
+  return gulp.src(mainBowerFiles(opts))
     .pipe($.concat('deps.js'))
     //.pipe($.uglify())
     .pipe(gulp.dest(config.build + 'js/'));
 
   // app.js
-  return gulp.src(config.concatDev)
-    .pipe($.concat('app.js'))
-    .pipe($.ngAnnotate())
-    .pipe(gulp.dest(config.build + 'js/'));
+//  return gulp.src(config.concatDev)
+//    .pipe($.concat('app.js'))
+//    .pipe($.ngAnnotate())
+//    .pipe(gulp.dest(config.build + 'js/'));
 });

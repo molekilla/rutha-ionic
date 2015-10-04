@@ -1,0 +1,8 @@
+{
+    "declaration": false,
+    "module": "system",
+    "target": "es5",
+    "noImplicitAny": false,
+    "experimentalDecorators": true,
+    "noExternalResolve": false
+}
